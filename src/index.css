@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+* {
+    scroll-behavior: smooth !important;
+}
+
+.owo{
+    background-image: url("assets/wave.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.uwu{
+    background-image: url("assets/reversewave.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.awa{
+    background-image: url("assets/wave.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
